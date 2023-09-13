@@ -13,7 +13,7 @@ function PhotoBlock() {
 
   return (
     <div className={`block ${isAnimationActive ? 'rotate-animation' : ''}`}>
-      <h2 onDoubleClick={handleDoubleClick}>Фотография</h2>
+      <h2 onDoubleClick={handleDoubleClick}>Фото</h2>
       <img src="me.jpeg" alt="Моя фотография" />
     </div>
   );
@@ -22,7 +22,7 @@ function PhotoBlock() {
 function StoryBlock() {
   return (
     <div className="block">
-      <h2>Моя история</h2>
+      <h2>О себе</h2>
       <p>
         Программирование стало для меня любимым делом благодаря его безграничным возможностям и творческому потенциалу.
         С самого детства меня всегда привлекали компьютеры и технологии. Когда я впервые начал изучать программирование,
@@ -38,8 +38,7 @@ function StoryBlock() {
         Взаимодействие с другими разработчиками позволяет мне учиться и расти профессионально.
       </p>
       <p>
-        В целом, программирование стало для меня не только работой, но и хобби, которое приносит мне радость и
-        удовлетворение. Я горжусь своими достижениями в этой области и с нетерпением жду новых вызовов и проектов.
+       Однако, кроме разработки, мне также нравится и преподавать программирование. Учить других людей, особенно подрастающее поколение, и видеть, как они профессионально растут. Мне нравится делиться своими знаниями и навыками с учащимися, вдохновляя их на свои собственные достижения.
       </p>
     </div>
   );
@@ -49,14 +48,8 @@ function VideoBlock() {
   return (
     <div className="block">
       <h2>Видео</h2>
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/video_id"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
+      <iframe src="https://capture.dropbox.com/embed/8G8wbwTgEG8qf8eu?source=copy-embed" width="560" height="315" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
     </div>
   );
 }
