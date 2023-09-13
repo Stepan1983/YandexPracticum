@@ -53,7 +53,7 @@ function VideoBlock() {
   return (
     <div className="block">
       <h2>Видео</h2>
-      <iframe src="https://capture.dropbox.com/embed/8G8wbwTgEG8qf8eu?source=copy-embed" width="560" height="315" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/L5cV7fXlsG0?si=GmSZ3d_bUddzsI5B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
     </div>
   );
